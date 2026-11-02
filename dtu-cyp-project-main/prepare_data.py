@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 """Download the CYP regression and classification training data, generate conformers,
 and split each task 70/15/15 (a molecule in both tasks gets the same split)."""
 import argparse
