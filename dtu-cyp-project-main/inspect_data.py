@@ -21,8 +21,8 @@ print(data.shape)
 print(data.columns.tolist())
 
 print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
-print("Example of molecule 1:")
-print(data.iloc[0])
+print("Example of molecule 10:")
+print(data.iloc[9])
 #print(data["SMILES"].iloc[0])
 
 print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
