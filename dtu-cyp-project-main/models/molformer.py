@@ -32,6 +32,7 @@ class MolFormerModel(nn.Module):
     def device(self):
         return self.encoder.device
 
+        
     def train(self, mode=True):
         super().train(mode)
         if self.cfg.freeze_encoder:
